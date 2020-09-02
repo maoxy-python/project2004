@@ -19,6 +19,6 @@ def user_login(request):
 
 def test_dev(request):
 
-    pri
+    print("dev")
 
-    return HttpResp
+    return HttpResponse("dev")
